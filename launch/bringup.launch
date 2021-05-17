@@ -16,4 +16,7 @@
 	<node name="human_make_photo" pkg="human_make_photo" type="human_make_photo">
     </node>
 	
+	<node name="face_tracking" pkg="face_tracking" type="listener.py">
+    </node>
+	
 </launch>
