@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	
+	<node name="human_dlib_face_recognition" pkg="human_dlib_face_recognition" type="human_dlib_face_recognition">
+    </node>
+	
+	<node name="human_zed_talker" pkg="human_zed_talker" type="human_zed_talker">
+    </node>
+	
+	<node name="human_distance" pkg="human_distance" type="human_distance">
+    </node>
+	
+	<node name="human_face_cutter" pkg="human_face_cutter" type="human_face_cutter">
+    </node>
+	
+	<node name="human_make_photo" pkg="human_make_photo" type="human_make_photo">
+    </node>
+	
+</launch>
