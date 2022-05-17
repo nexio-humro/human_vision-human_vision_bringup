@@ -19,4 +19,7 @@
 	<node name="face_tracking" pkg="face_tracking" type="listener.py">
     </node>
 	
+    <node name="human_facenet_face_recognition" pkg="human_facenet_face_recognition" type="human_facenet_face_recognition">
+    </node>
+
 </launch>
